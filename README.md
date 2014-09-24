@@ -7,17 +7,17 @@ This first version uses a simple 32bit ubuntu box with a minimal installation of
 
 Install
 ============
-_vagrant_
+*vagrant*
 vagrant up => start box
 vagrant ssh => log into box
 
-_grunt_
+*grunt*
 grunt watch => watch for file changes and do sass/minification/obfuscation/... on change
 
-_server_
+*server*
 npm start
 
-_testing_
+*testing*
 !! Does not work in vagrant currently, as it tries to start a chrome browser
 npm test-single-run => unit tests (run once and exist)
 npm protractor => run end to end tests
