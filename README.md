@@ -7,7 +7,13 @@ This first version uses a simple 32bit ubuntu box with a minimal installation of
 # Installation
 #### vagrant
 vagrant up => start box
-vagrant ssh => log into box
+vagrant ssh => log into box, for Windows see below
+
+#### Putty
+convert %userprofile%\.vagrant.d\insecure_private_key using puttygen.exe to a private key file (.ppk)  
+open Putty, hostname: localhost, port 2222  
+add the .ppk file under Connection > SSH > Auth > Private key file  
+you can set the default username (vagrant) under Connection > SSH > Auth > Private key for authentication  
 
 #### grunt
 grunt watch => watch for file changes and do sass/minification/obfuscation/... on change
