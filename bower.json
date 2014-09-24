@@ -1,8 +1,6 @@
 {
-  "name": "HWBOT-eSports",
-  "description": "HWBOT eSports",
+  "name": "eDev playground",
   "version": "0.0.0",
-  "homepage": "http://esports.hwbot.org",
   "private": true,
   "dependencies": {
     "angular": "1.2.x",
