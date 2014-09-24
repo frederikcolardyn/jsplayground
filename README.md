@@ -7,6 +7,7 @@ This first version uses a simple 32bit ubuntu box with a minimal installation of
 # Installation
 #### vagrant
 vagrant up => start box
+
 vagrant ssh => log into box
 
 #### grunt
