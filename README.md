@@ -41,3 +41,5 @@ git:// protocol is blocked on telenet network, so you need to instruct git to sw
 # TODO
 ##### config for parrallels / vmware
 virtualbox is slow, would be nice if we could use a faster emulator if present on system
+
+# this is a change made in feature branch MT-1
