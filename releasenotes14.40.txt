@@ -1,2 +1,3 @@
 Release notes 14.40
 ===================
+- MT-2 added
